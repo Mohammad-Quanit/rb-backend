@@ -1,5 +1,4 @@
 const axiosInstance = require('../../../config/axios');
-const crypto = require('crypto');
 // const { encryptStringWithRsaPublicKey } = require('../../../middlewares/crypto');
 
 async function generateOTP(req, res, next) {
